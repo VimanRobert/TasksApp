@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:layout_marginHorizontal="@dimen/fab_margin"
+        android:layout_marginTop="32dp"
+        android:text="@string/informations"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="292dp"
+        android:layout_height="580dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="58dp"
+        android:textSize="18dp"
+        android:text="@string/this_application_was_build_to_help_the_users_to_store_and_remember_any_task_they_have_by_the_description_of_the_tasks_the_time_in_hh_mm_format_and_the_datetime_or_the_deadline_in_dd_mm_yyyy_n_n_the_mandatory_fields_are_description_and_date_while_time_is_not_because_in_some_cases_the_task_can_start_anytime_in_a_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

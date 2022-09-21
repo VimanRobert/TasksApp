@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Welcome">Welcome !!</string>
+    <string name="star1">Star</string>
+    <string name="go_to_main_menu">Go to main menu</string>
+    <string name="Menu">Menu</string>
+    <string name="map">Map</string>
+    <string name="Location">Add location</string>
+    <string name="calendar">Calendar</string>
+    <string name="visit_my_parents">Visit my parents</string>
+    <string name="check_the_list">Check the list</string>
+    <string name="press_the_icon_to_add_a_location">Press the icon to add a location</string>
+    <string name="add">Add</string>
+    <string name="list_of_tasks">List of tasks</string>
+    <string name="my_tasks_app">My tasks app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informations">Informations</string>
+    <string name="settings">Settings</string>
+    <string name="delete_this_task">Delete this task</string>
+    <string name="this_application_was_build_to_help_the_users_to_store_and_remember_any_task_they_have_by_the_description_of_the_tasks_the_time_in_hh_mm_format_and_the_datetime_or_the_deadline_in_dd_mm_yyyy_n_n_the_mandatory_fields_are_description_and_date_while_time_is_not_because_in_some_cases_the_task_can_start_anytime_in_a_date">This application was build to help the users to store and remember any task they have by the description of the tasks, the time in \'hh:mm\' format and the datetime or the deadline in \'DD/MM/YYYY\'. \n\n The mandatory fields are description and date, while time is not because in some cases the task can start anytime in a date.</string>
+</resources>

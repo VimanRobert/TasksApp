@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testapp.MainActivity">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/action_info"
+        android:title="Info"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_info"
+        />
+</menu>

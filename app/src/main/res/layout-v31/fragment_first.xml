@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!--
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#D1C5D3"
+        app:itemIconTint="@color/purple_700"
+        app:itemTextColor="#0C164A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu_main" />
+        -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="151dp"
+        android:text="@string/my_tasks_app"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toList2"
+        android:layout_width="186dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/check_the_list"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toCalendar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/toCalendar"
+        android:layout_width="128dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="68dp"
+        android:text="Calendar"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/writeTask"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="240dp"
+        android:ems="10"
+        android:hint="Visit my parents"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addTask"
+        android:layout_width="197dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="Add the task"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/toList2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writeDate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/writeTime"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="37dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="time"
+        android:minHeight="48dp"
+        android:text="Press here to set the clock"
+        android:textColor="#546E7A"
+        android:textSize="26dp"
+        android:timePickerMode="spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writeTask" />
+
+    <EditText
+        android:id="@+id/writeDate"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="89dp"
+        android:ems="10"
+        android:hint="Double press to select a date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writeTime" />
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="160dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="28dp"
+        android:text="00/00/0000"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/writeDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writeTime" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
